@@ -1,0 +1,222 @@
+/* line 1, ../sass/_base.scss */
+:root {
+  font-size: 16px;
+}
+
+/* line 4, ../sass/_base.scss */
+.block {
+  height: 4.1rem;
+  width: 4.1rem;
+  display: inline-block;
+  background-color: yellow;
+  opacity: 0.7;
+}
+/* line 10, ../sass/_base.scss */
+.block:hover {
+  opacity: 1;
+}
+
+/* line 14, ../sass/_base.scss */
+.shadow {
+  background-color: #003b4a;
+  padding: 1rem 1.8rem;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(1) {
+  background-color: #fff2f2;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(2) {
+  background-color: #ffe5e5;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(3) {
+  background-color: #ffd8d8;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(4) {
+  background-color: #ffcccc;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(5) {
+  background-color: #ffbfbf;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(6) {
+  background-color: #ffb2b2;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(7) {
+  background-color: #ffa5a5;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(8) {
+  background-color: #ff9999;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(9) {
+  background-color: #ff8c8c;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(10) {
+  background-color: #ff7f7f;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(11) {
+  background-color: #ff7272;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(12) {
+  background-color: #ff6666;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(13) {
+  background-color: #ff5959;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(14) {
+  background-color: #ff4c4c;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(15) {
+  background-color: #ff3f3f;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(16) {
+  background-color: #ff3232;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(17) {
+  background-color: #ff2626;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(18) {
+  background-color: #ff1919;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(19) {
+  background-color: #ff0c0c;
+}
+
+/* line 22, ../sass/_base.scss */
+.shadow ul li:nth-child(20) {
+  background-color: red;
+}
+
+/* line 27, ../sass/_base.scss */
+button {
+  background-color: #6666ff;
+  border: 0.083em solid gray;
+  border-radius: 0.180em;
+  padding: .6rem 1.2rem;
+}
+/* line 32, ../sass/_base.scss */
+button a {
+  text-decoration: none;
+}
+/* line 35, ../sass/_base.scss */
+button:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border: 0.183em solid #ffcbdb;
+}
+
+/* line 41, ../sass/_base.scss */
+.shadow ul li:nth-child(9) {
+  border-radius: .5em;
+}
+
+/* line 41, ../sass/_base.scss */
+.shadow ul li:nth-child(10) {
+  border-radius: .5em;
+}
+
+/* line 41, ../sass/_base.scss */
+.shadow ul li:nth-child(11) {
+  border-radius: .5em;
+}
+
+/* line 41, ../sass/_base.scss */
+.shadow ul li:nth-child(12) {
+  border-radius: .5em;
+}
+
+/* line 41, ../sass/_base.scss */
+.shadow ul li:nth-child(13) {
+  border-radius: .5em;
+}
+
+/* line 41, ../sass/_base.scss */
+.shadow ul li:nth-child(14) {
+  border-radius: .5em;
+}
+
+/* line 41, ../sass/_base.scss */
+.shadow ul li:nth-child(15) {
+  border-radius: .5em;
+}
+
+/* line 41, ../sass/_base.scss */
+.shadow ul li:nth-child(16) {
+  border-radius: .5em;
+}
+
+/* line 46, ../sass/_base.scss */
+.shadow ul li:nth-child(17) {
+  border-radius: 1em;
+}
+
+/* line 46, ../sass/_base.scss */
+.shadow ul li:nth-child(18) {
+  border-radius: 1em;
+}
+
+/* line 46, ../sass/_base.scss */
+.shadow ul li:nth-child(19) {
+  border-radius: 1em;
+}
+
+/* line 46, ../sass/_base.scss */
+.shadow ul li:nth-child(20) {
+  border-radius: 1em;
+}
+
+/* line 46, ../sass/_base.scss */
+.shadow ul li:nth-child(21) {
+  border-radius: 1em;
+}
+
+/* line 46, ../sass/_base.scss */
+.shadow ul li:nth-child(22) {
+  border-radius: 1em;
+}
+
+/* line 4, ../sass/style.scss */
+body {
+  margin: 70px auto;
+  background-color: #ff7f00;
+  width: 40rem;
+}
+
+/* line 10, ../sass/style.scss */
+ul {
+  padding: 0;
+}

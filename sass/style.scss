@@ -1,1 +1,12 @@
 @import "_variables.scss";
+@import "_base.scss";
+
+body{
+	margin: 70px auto;
+	background-color: $orange;
+	width: 40rem;
+}
+
+ul {
+	padding: 0;
+}
