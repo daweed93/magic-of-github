@@ -1,6 +1,10 @@
 :root{
 	font-size: 16px;
 }
+h1 {
+	text-align: center;
+	color: lighten($black, 5%);
+}
 .block {
 	height: 4.1rem;
 	width: 4.1rem;
@@ -11,15 +15,22 @@
 		opacity: 1;
 	}
 }
+.block2 {
+	width: 100%;
+	height: 1.5rem;
+	background-color: $green;
+	display: block;
+	margin-top: 0.3rem;
+}
 .shadow {
 	background-color: darken($main-green, 10%);
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 	padding: 1rem 1.8rem;
 }
 
 $perc-red: 5%;
-
 @for $i from 1 through 20 {
-	.shadow ul li:nth-child(#{$i}) {
+	.fr-list ul li:nth-child(#{$i}) {
 		background-color: mix($red, $white, $perc-red);
 	}
 	$perc-red: $perc-red + 5%;
@@ -38,12 +49,30 @@ button {
 	}
 }
 @for $i from 9 through 16 {
-	.shadow ul li:nth-child(#{$i}) {
+	.fr-list ul li:nth-child(#{$i}) {
 		border-radius: .5em;
 	}
 }
 @for $i from 17 through 22 {
-	.shadow ul li:nth-child(#{$i}) {
+	.fr-list ul li:nth-child(#{$i}) {
 		border-radius: 1em;
 	}
+}
+
+$perc-violet: 10%;
+@for $i from 1 through 10 {
+	.sec-list ul li:nth-child(#{$i}) {
+		background-color: mix($violet, $white, $perc-violet);
+		text-align: center;
+		color: $red;
+		padding-top: 0.2rem;
+		font-size: 1.1rem;
+		&:before {
+			content: "BRAVO DAVIDEE!!!!";
+		}
+	}
+	$perc-violet: $perc-violet + 10%;
+}
+.sec-list ul li:last-child {
+	color: $white;
 }
