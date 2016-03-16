@@ -3,10 +3,35 @@
 
 body{
 	margin: 70px auto;
-	background-color: $orange;
+	background-color: $blue-gray;
 	width: 40rem;
 }
 
 ul {
 	padding: 0;
+}
+.l-d {
+	position: relative;
+	float: right;
+	margin-top: 1rem;
+	button {
+		a {
+			color: $white;
+		}
+	}
+}
+/*%main-gradient {
+	@include background-image(linear-gradient(left, $main-green 70%, $white));
+}*/
+.picture img {
+	//background-image: url('/css/pic.jpg');
+	width: 100%;
+}
+img {
+	//filter: brightness(3.45);
+	//filter: contrast(1);
+	//filter: invert(80%);
+	//filter: saturate(500%);
+	//filter: hue-rotate(200deg);
+	filter: drop-shadow(0px 10px 20px $black) hue-rotate(100deg) invert(1);
 }
