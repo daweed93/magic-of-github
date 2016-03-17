@@ -27,8 +27,16 @@ h1 {
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 	padding: 1rem 1.8rem;
 	min-height: 1400px;
-	//@extend %main-gradient;
+	@extend %main-gradient;
 }
+
+%main-gradient {
+	 background-image: -webkit-linear-gradient(left, $main-green 70%, darken($yellow, 10%));
+}
+/*@mixin gradient ($main-green, $white) {
+	background-color: $main-green;
+	background-image: -webkit-linear-gradient($main-green 80%, $white);
+}*/
 
 $perc-red: 5%;
 @for $i from 1 through 20 {
